@@ -1,0 +1,3 @@
+coins = {chain: dict() for chain in selected_chains}
+    coins.update(pools)
+    pools_names = [pool for pool in pools]
